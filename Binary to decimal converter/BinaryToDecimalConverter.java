@@ -5,11 +5,11 @@ public class BinaryToDecimalConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        // Prompt the user to enter a binary number as a string
-        System.out.print("Enter a binary number: ");
+       
+        System.out.print("Enter a binary number as a String: ");
         String binaryString = scanner.nextLine();
         
-        // Validate the input to check if it's a valid binary number
+       
         if (isBinary(binaryString)) {
             // Convert the binary string to a decimal number
             int decimal = convertBinaryToDecimal(binaryString);
