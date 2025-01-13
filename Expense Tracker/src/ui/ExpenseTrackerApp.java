@@ -48,7 +48,7 @@ public class ExpenseTrackerApp {
                     manager.deleteExpense(id);
                 }
                 case 4 -> manager.viewExpenses();
-                case 5 -> manager.generateReport();  // Calling the method to generate report
+                case 5 -> manager.generateReport();  
                 case 6 -> System.out.println("Exiting Expense Tracker. Goodbye!");
                 default -> System.out.println("Invalid choice. Please try again.");
             }
